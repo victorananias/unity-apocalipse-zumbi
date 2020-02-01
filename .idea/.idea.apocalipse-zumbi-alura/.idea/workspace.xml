@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4948eb6e-3596-465d-a8fe-4bd3f26acee6" name="Default Changelist" comment="" />
+    <list default="true" id="4948eb6e-3596-465d-a8fe-4bd3f26acee6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modelos3D/Personagens/Animacoes/Animacoes.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modelos3D/Personagens/Animacoes/Animacoes.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraMovement.cs" />
       </list>
     </option>
   </component>
@@ -26,6 +35,7 @@
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,6 +85,7 @@
       <workItem from="1580181030020" duration="28000" />
       <workItem from="1580222205534" duration="65000" />
       <workItem from="1580355891787" duration="1744000" />
+      <workItem from="1580435952950" duration="3100000" />
     </task>
     <servers />
   </component>

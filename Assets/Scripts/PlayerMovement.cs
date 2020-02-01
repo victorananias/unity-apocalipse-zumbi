@@ -14,11 +14,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var aixosX = Input.GetAxis("Horizontal");
-        var aixosY = Input.GetAxis("Vertical");
+        var eixoX = Input.GetAxis("Horizontal");
+        var eixoY = Input.GetAxis("Vertical");
         
-        var newPosition = new Vector3(aixosX, 0, aixosY);
+        var direcao = new Vector3(eixoX, 0, eixoY);
         
-        transform.Translate(newPosition * Time.deltaTime * PlayerSpeed);
+        transform.Translate(direcao * Time.deltaTime * PlayerSpeed);
+
+        GetComponent<Animator>().SetBool("EstaCorrendo", direcao != Vector3.zero);
     }
 }
