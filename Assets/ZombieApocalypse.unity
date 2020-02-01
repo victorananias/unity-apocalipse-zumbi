@@ -214,8 +214,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2.21
-  m_Center: {x: -36.32, y: -0.24, z: -24.5}
+  m_Radius: 2.22
+  m_Center: {x: -36.32, y: -1.11, z: -24.5}
 --- !u!135 &187852778
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -227,8 +227,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3.62
-  m_Center: {x: -13.2, y: -1.49, z: -10.01}
+  m_Radius: 3.6
+  m_Center: {x: -13.2, y: -1.7, z: -10.01}
 --- !u!65 &187852779
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -242,26 +242,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 58.916443, y: 1.7284715, z: 45.2812}
   m_Center: {x: -29.458221, y: -0.42279413, z: -22.640265}
---- !u!1 &319133901 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679,
-    type: 3}
-  m_PrefabInstance: {fileID: 452259429}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &319133902
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319133901}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 1
-  m_Height: 3
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!1 &344270645 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1884102019447498, guid: 4b3bb44effa49480d8d18049684cc33a,
@@ -344,14 +324,6 @@ PrefabInstance:
     - target: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679, type: 3}
       propertyPath: m_Name
       value: Zumbi
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334144204180584, guid: 35861510587b7489780fe86970823679, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1343055675690134, guid: 35861510587b7489780fe86970823679, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
       propertyPath: m_LocalPosition.x
