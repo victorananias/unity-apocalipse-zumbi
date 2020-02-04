@@ -1,10 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float PlayerSpeed = 10;
+    public float Velocidade = 10;
+    private Vector3 direcao;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -16,11 +19,16 @@ public class PlayerMovement : MonoBehaviour
     {
         var eixoX = Input.GetAxis("Horizontal");
         var eixoY = Input.GetAxis("Vertical");
-        
-        var direcao = new Vector3(eixoX, 0, eixoY);
-        
-        transform.Translate(direcao * Time.deltaTime * PlayerSpeed);
-
+        direcao = new Vector3(eixoX, 0, eixoY);
+     
         GetComponent<Animator>().SetBool("EstaCorrendo", direcao != Vector3.zero);
+    }
+
+    private void FixedUpdate()
+    {
+        var quantidadeMover = direcao * Time.deltaTime * Velocidade;
+        var rigidbody = GetComponent<Rigidbody>();
+        
+        rigidbody.MovePosition(rigidbody.position + quantidadeMover);
     }
 }
