@@ -26,9 +26,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        var quantidadeMover = direcao * Time.deltaTime * Velocidade;
-        var rigidbody = GetComponent<Rigidbody>();
-        
-        rigidbody.MovePosition(rigidbody.position + quantidadeMover);
+        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + direcao.normalized * Velocidade * Time.deltaTime);
     }
 }
