@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4948eb6e-3596-465d-a8fe-4bd3f26acee6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Personagens/Zumbi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Personagens/Zumbi.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity" afterDir="false" />
-    </list>
+    <list default="true" id="4948eb6e-3596-465d-a8fe-4bd3f26acee6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +87,7 @@
       <workItem from="1580435952950" duration="3100000" />
       <workItem from="1580781193772" duration="1305000" />
       <workItem from="1580866343253" duration="1338000" />
-      <workItem from="1581126859994" duration="639000" />
+      <workItem from="1581126859994" duration="902000" />
     </task>
     <servers />
   </component>
