@@ -310,26 +310,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
---- !u!1 &361549657 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679,
-    type: 3}
-  m_PrefabInstance: {fileID: 959888921}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &361549658
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361549657}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 1
-  m_Height: 3
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!1001 &452259429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -385,6 +365,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 48869143411042567, guid: 35861510587b7489780fe86970823679,
+        type: 3}
+      propertyPath: Jogador
+      value: 
+      objectReference: {fileID: 344270645}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35861510587b7489780fe86970823679, type: 3}
 --- !u!1 &846141374 stripped
@@ -461,6 +446,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 48869143411042567, guid: 35861510587b7489780fe86970823679,
+        type: 3}
+      propertyPath: Jogador
+      value: 
+      objectReference: {fileID: 344270645}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35861510587b7489780fe86970823679, type: 3}
 --- !u!1001 &1209720277
@@ -518,6 +508,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 48869143411042567, guid: 35861510587b7489780fe86970823679,
+        type: 3}
+      propertyPath: Jogador
+      value: 
+      objectReference: {fileID: 344270645}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35861510587b7489780fe86970823679, type: 3}
 --- !u!1 &1212254925 stripped
