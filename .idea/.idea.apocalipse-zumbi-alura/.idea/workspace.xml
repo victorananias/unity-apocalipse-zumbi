@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4948eb6e-3596-465d-a8fe-4bd3f26acee6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modelos3D/Personagens/Animacoes/Jogador.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modelos3D/Personagens/Animacoes/Jogador.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Armas/Pistola_USP45.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Armas/Pistola_USP45.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ZombieMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ZombieMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity" afterDir="false" />
     </list>
@@ -93,7 +95,7 @@
       <workItem from="1580866343253" duration="1338000" />
       <workItem from="1581126859994" duration="1221000" />
       <workItem from="1581169513380" duration="88000" />
-      <workItem from="1581255864229" duration="1447000" />
+      <workItem from="1581255864229" duration="2667000" />
     </task>
     <servers />
   </component>

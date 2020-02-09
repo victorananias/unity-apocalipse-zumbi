@@ -15,7 +15,7 @@ public class ZombieMovement : MonoBehaviour
     {
         var distancia = Vector3.Distance(Jogador.transform.position, transform.position);
 
-        if (!(distancia > 2.3))
+        if (distancia <= 2.3)
         {
             return;
         }
