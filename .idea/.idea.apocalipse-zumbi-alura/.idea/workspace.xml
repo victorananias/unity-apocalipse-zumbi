@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4948eb6e-3596-465d-a8fe-4bd3f26acee6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modelos3D/Personagens/Animacoes/Jogador.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modelos3D/Personagens/Animacoes/Jogador.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Armas/Pistola_USP45.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Armas/Pistola_USP45.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ZombieMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ZombieMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +16,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ZombieApocalypse.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ZombieMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -28,6 +27,7 @@
         <option value="$PROJECT_DIR$/Assets/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ZombieMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GunController.cs" />
       </list>
     </option>
   </component>
@@ -38,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
@@ -95,7 +96,10 @@
       <workItem from="1580866343253" duration="1338000" />
       <workItem from="1581126859994" duration="1221000" />
       <workItem from="1581169513380" duration="88000" />
-      <workItem from="1581255864229" duration="2667000" />
+      <workItem from="1581255864229" duration="3480000" />
+      <workItem from="1581472074782" duration="195000" />
+      <workItem from="1581472320331" duration="12000" />
+      <workItem from="1581472369222" duration="6000" />
     </task>
     <servers />
   </component>
