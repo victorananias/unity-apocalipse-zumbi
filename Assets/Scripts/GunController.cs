@@ -5,12 +5,13 @@ using UnityEngine;
 public class GunController : MonoBehaviour
 {
     public GameObject Bala;
+    public GameObject CanoArma;
     
     void FixedUpdate()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Instantiate(Bala, transform.position, transform.rotation);
+            Instantiate(Bala, CanoArma.transform.position, CanoArma.transform.rotation);
         }
     }
 }
