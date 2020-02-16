@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4948eb6e-3596-465d-a8fe-4bd3f26acee6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bala.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bala.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShotMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShotMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ZombieApocalypse.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Bala.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShotMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -29,8 +29,8 @@
         <option value="$PROJECT_DIR$/Assets/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ZombieMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GunController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ShotMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShotMovement.cs" />
       </list>
     </option>
   </component>
@@ -106,7 +106,7 @@
       <workItem from="1581643933323" duration="1119000" />
       <workItem from="1581788640344" duration="723000" />
       <workItem from="1581802051669" duration="817000" />
-      <workItem from="1581804665269" duration="1973000" />
+      <workItem from="1581804665269" duration="2820000" />
     </task>
     <servers />
   </component>
@@ -115,4 +115,10 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="2714" y="174" key="RiderGenerateDialog" timestamp="1581855789817">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2714" y="174" key="RiderGenerateDialog/62.0.1474.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581855789817" />
+  </component>
 </project>
