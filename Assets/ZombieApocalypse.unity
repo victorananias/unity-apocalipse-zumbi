@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canto_Direito
       objectReference: {fileID: 0}
+    - target: {fileID: 1437694135535552, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4585601856761568, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -40
@@ -291,6 +295,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Velocidade: 10
+  MascaraChao:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!95 &344270647
 Animator:
   serializedVersion: 3
@@ -858,6 +865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canto_Esquerdo
       objectReference: {fileID: 0}
+    - target: {fileID: 1437694135535552, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4585601856761568, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20
@@ -1136,6 +1147,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hotel_Estacionamento_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 6169916106656266332, guid: 296e189e80e0c0d40af8ddab13cd31ed,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 296e189e80e0c0d40af8ddab13cd31ed, type: 3}
