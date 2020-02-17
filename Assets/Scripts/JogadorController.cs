@@ -2,12 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class PlayerMovement : MonoBehaviour
+public class JogadorController : MonoBehaviour
 {
     public float Velocidade = 10;
     private Vector3 direcao;
     public LayerMask MascaraChao;
+    public GameObject TextoGameOver;
+    public bool Vivo = true;
     
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,12 @@ public class PlayerMovement : MonoBehaviour
         direcao = new Vector3(eixoX, 0, eixoY);
      
         GetComponent<Animator>().SetBool("EstaCorrendo", direcao != Vector3.zero);
+
+        if (!Vivo && Input.GetButtonDown("Fire1"))
+        {
+            SceneManager.LoadScene("ApocalipseZombie");
+            Time.timeScale = 1;
+        }
     }
 
     private void FixedUpdate()

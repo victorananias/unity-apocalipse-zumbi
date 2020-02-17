@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GunController : MonoBehaviour
+public class ArmaController : MonoBehaviour
 {
     public GameObject Bala;
     public GameObject CanoArma;

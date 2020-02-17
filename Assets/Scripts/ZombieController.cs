@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ZombieMovement : MonoBehaviour
+public class ZombieController : MonoBehaviour
 {
     public GameObject Jogador;
     public float Velocidade = 5;
-
     void Start()
     {
     }
@@ -29,5 +28,12 @@ public class ZombieMovement : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("Atacando", true);
         }
+    }
+
+    void AoAtacarJogador()
+    {
+        Time.timeScale = 0;
+        Jogador.GetComponent<JogadorController>().TextoGameOver.SetActive(true);
+        Jogador.GetComponent<JogadorController>().Vivo = false;
     }
 }
