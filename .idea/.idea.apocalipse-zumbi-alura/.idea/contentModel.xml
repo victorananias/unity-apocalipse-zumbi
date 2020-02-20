@@ -17,6 +17,7 @@
           <e p="ArmaController.cs" t="Include" />
           <e p="BalaController.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
+          <e p="GeradorZombies.cs" t="Include" />
           <e p="JogadorController.cs" t="Include" />
           <e p="ZombieController.cs" t="Include" />
         </e>

@@ -8,6 +8,9 @@ public class ZombieController : MonoBehaviour
     public float Velocidade = 5;
     void Start()
     {
+        Jogador = GameObject.FindWithTag("Player").gameObject;
+        var tipoZombie = Random.Range(1, 28);
+        transform.GetChild(tipoZombie).gameObject.SetActive(true);
     }
 
     void FixedUpdate()

@@ -3,23 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4948eb6e-3596-465d-a8fe-4bd3f26acee6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.apocalipse-zumbi-alura/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modelos3D/Personagens/Animacoes/Animacoes_Ataque.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modelos3D/Personagens/Animacoes/Animacoes_Ataque.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modelos3D/Personagens/Animacoes/Zumbi.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modelos3D/Personagens/Animacoes/Zumbi.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ApocalipseZombie.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ApocalipseZombie.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Personagens/Zumbi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Personagens/Zumbi.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ArmaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ArmaController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JogadorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JogadorController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShotMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BalaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShotMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BalaController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ZombieMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ZombieMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ZombieApocalypse.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ArmaController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BalaController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JogadorController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GeradorZombies.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,8 +38,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BalaController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ArmaController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JogadorController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GeradorZombies.cs" />
       </list>
     </option>
   </component>
@@ -128,7 +117,8 @@
       <workItem from="1581788640344" duration="723000" />
       <workItem from="1581802051669" duration="817000" />
       <workItem from="1581804665269" duration="4551000" />
-      <workItem from="1581896404577" duration="3692000" />
+      <workItem from="1581896404577" duration="4033000" />
+      <workItem from="1582160191187" duration="683000" />
     </task>
     <servers />
   </component>
@@ -142,7 +132,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
