@@ -6,8 +6,13 @@ public class ZombieController : MonoBehaviour
 {
     public GameObject Jogador;
     public float Velocidade = 5;
+    private Rigidbody _rigidbodyZombie;
+    private Animator _animatorZombie;
+
     void Start()
     {
+        _rigidbodyZombie = GetComponent<Rigidbody>();
+        _animatorZombie = GetComponent<Animator>();
         Jogador = GameObject.FindWithTag("Player").gameObject;
         var tipoZombie = Random.Range(1, 28);
         transform.GetChild(tipoZombie).gameObject.SetActive(true);
@@ -19,17 +24,17 @@ public class ZombieController : MonoBehaviour
 
         var direcao = Jogador.transform.position - transform.position;
         var novaRotacao = Quaternion.LookRotation(direcao);
-        GetComponent<Rigidbody>().MoveRotation(novaRotacao);
+        _rigidbodyZombie.MoveRotation(novaRotacao);
 
         if (distancia > 2.3)
         {
-            GetComponent<Rigidbody>()
-                .MovePosition(GetComponent<Rigidbody>().position + direcao.normalized * Velocidade * Time.deltaTime);
-            GetComponent<Animator>().SetBool("Atacando", false);
+            _rigidbodyZombie
+                .MovePosition(_rigidbodyZombie.position + direcao.normalized * Velocidade * Time.deltaTime);
+            _animatorZombie.SetBool("Atacando", false);
         }
         else
         {
-            GetComponent<Animator>().SetBool("Atacando", true);
+            _animatorZombie.SetBool("Atacando", true);
         }
     }
 

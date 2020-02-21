@@ -6,11 +6,17 @@ using UnityEngine;
 public class BalaController : MonoBehaviour
 {
     public float Velocidade = 20;
+    private Rigidbody _rigidbodyBala;
+
+    private void Start()
+    {
+        _rigidbodyBala = GetComponent<Rigidbody>();
+    }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + transform.forward * Velocidade * Time.deltaTime);
+        _rigidbodyBala.MovePosition(_rigidbodyBala.position + transform.forward * Velocidade * Time.deltaTime);
     }
     
     void OnTriggerEnter(Collider other)

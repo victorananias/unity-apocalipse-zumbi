@@ -6,7 +6,7 @@ public class GeradorZombies : MonoBehaviour
 {
     public GameObject Zombie;
     public float TempoGerarZombie = 1;
-    private float ContadorTempo = 0;
+    private float _contadorTempo = 0;
     
     // Start is called before the first frame update
     void Start()
@@ -16,13 +16,13 @@ public class GeradorZombies : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ContadorTempo += Time.deltaTime;
-        if (TempoGerarZombie > ContadorTempo)
+        _contadorTempo += Time.deltaTime;
+        if (TempoGerarZombie > _contadorTempo)
         {
             return;
         }
         
         Instantiate(Zombie, transform.position, transform.rotation);
-        ContadorTempo = 0;
+        _contadorTempo = 0;
     }
 }
