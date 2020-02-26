@@ -13,7 +13,7 @@ public class JogadorController : MonoBehaviour
     public int Vida = 100;
     private Animator _animatorJogador;
     private Rigidbody _rigidbodyJogador;
-    public bool Vivo => Vida == 0;
+    public bool Vivo => Vida > 0;
     
     // Start is called before the first frame update
     void Start()
