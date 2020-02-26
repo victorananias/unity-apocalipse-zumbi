@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 
 public class ZombieController : MonoBehaviour
 {
@@ -40,8 +41,7 @@ public class ZombieController : MonoBehaviour
 
     void AoAtacarJogador()
     {
-        Time.timeScale = 0;
-        Jogador.GetComponent<JogadorController>().TextoGameOver.SetActive(true);
-        Jogador.GetComponent<JogadorController>().Vivo = false;
+        var dano = Random.Range(20, 30);
+        Jogador.GetComponent<JogadorController>().TomarDano(dano);
     }
 }

@@ -10,9 +10,10 @@ public class JogadorController : MonoBehaviour
     private Vector3 _direcao;
     public LayerMask MascaraChao;
     public GameObject TextoGameOver;
-    public bool Vivo = true;
+    public int Vida = 100;
     private Animator _animatorJogador;
     private Rigidbody _rigidbodyJogador;
+    public bool Vivo => Vida == 0;
     
     // Start is called before the first frame update
     void Start()
@@ -57,5 +58,19 @@ public class JogadorController : MonoBehaviour
         var novaRotacao = Quaternion.LookRotation(posicaoMiraJogador);
             
         _rigidbodyJogador.MoveRotation(novaRotacao);
+    }
+
+    public void TomarDano(int dano)
+    {
+        Vida -= dano;
+
+        if (Vida > 0)
+        {
+            return;
+        }
+        
+        Vida = 0;
+        Time.timeScale = 0;
+        TextoGameOver.SetActive(true);
     }
 }
