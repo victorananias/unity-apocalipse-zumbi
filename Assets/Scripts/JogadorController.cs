@@ -13,8 +13,9 @@ public class JogadorController : MonoBehaviour
     public int Vida = 100;
     private Animator _animatorJogador;
     private Rigidbody _rigidbodyJogador;
+    public InterfaceController InterfaceController;
     public bool Vivo => Vida > 0;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,14 +29,14 @@ public class JogadorController : MonoBehaviour
         var eixoX = Input.GetAxis("Horizontal");
         var eixoY = Input.GetAxis("Vertical");
         _direcao = new Vector3(eixoX, 0, eixoY);
-     
+
         _animatorJogador.SetBool("EstaCorrendo", _direcao != Vector3.zero);
 
         if (Vivo || !Input.GetButtonDown("Fire1"))
         {
             return;
         }
-        
+
         SceneManager.LoadScene("ApocalipseZombie");
         Time.timeScale = 1;
     }
@@ -51,24 +52,25 @@ public class JogadorController : MonoBehaviour
         {
             return;
         }
-        
+
         var posicaoMiraJogador = impacto.point - transform.position;
         posicaoMiraJogador.y = transform.position.y;
 
         var novaRotacao = Quaternion.LookRotation(posicaoMiraJogador);
-            
+
         _rigidbodyJogador.MoveRotation(novaRotacao);
     }
 
     public void TomarDano(int dano)
     {
         Vida -= dano;
+        InterfaceController.AtualizarSliderVida();
 
         if (Vida > 0)
         {
             return;
         }
-        
+
         Vida = 0;
         Time.timeScale = 0;
         TextoGameOver.SetActive(true);

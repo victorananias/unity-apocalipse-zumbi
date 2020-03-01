@@ -18,6 +18,7 @@
           <e p="BalaController.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
           <e p="GeradorZombies.cs" t="Include" />
+          <e p="InterfaceController.cs" t="Include" />
           <e p="JogadorController.cs" t="Include" />
           <e p="ZombieController.cs" t="Include" />
         </e>
@@ -26,7 +27,6 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\Victor\.Rider2019.3\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\Victor\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Victor\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_apocalipse-zumbi-alura.-1817003661.00" t="ExcludeRecursive" />
   </component>
