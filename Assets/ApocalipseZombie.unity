@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 9f7686f9db6822846bd7545911bc786e,
     type: 2}
   m_UseShadowmask: 1
@@ -2988,6 +2989,7 @@ MonoBehaviour:
     m_Bits: 256
   TextoGameOver: {fileID: 1199043613}
   Vida: 100
+  InterfaceController: {fileID: 958671663}
 --- !u!95 &344270647
 Animator:
   serializedVersion: 3
@@ -8376,6 +8378,7 @@ GameObject:
   - component: {fileID: 958671661}
   - component: {fileID: 958671660}
   - component: {fileID: 958671659}
+  - component: {fileID: 958671663}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -8463,6 +8466,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &958671663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958671658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c48a2b099a62de4db57b16e8589a593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JogadorController: {fileID: 344270646}
+  SliderVidaJogador: {fileID: 53273973}
 --- !u!4 &959255674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4730407008843400, guid: 0ad97ea479e1e4c6e941563750dbf44e,
@@ -16846,8 +16863,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865865736}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 1
+  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
