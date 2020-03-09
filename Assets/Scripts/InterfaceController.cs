@@ -13,6 +13,7 @@ public class InterfaceController : MonoBehaviour
     void Start()
     {
         SliderVidaJogador.maxValue = JogadorController.Vida;
+        AtualizarSliderVida();
     }
 
     // Update is called once per frame
