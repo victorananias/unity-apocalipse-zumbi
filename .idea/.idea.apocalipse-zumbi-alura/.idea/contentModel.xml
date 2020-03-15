@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Projects\apocalipse-zumbi-alura" t="IncludeRecursive">
+    <e p="C:\Users\Victor\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Victor\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_apocalipse-zumbi-alura.1311267316.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\apocalipse-zumbi-alura" t="IncludeRecursive">
       <e p="apocalipse-zumbi-alura.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -15,6 +17,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ArmaController.cs" t="Include" />
+          <e p="AudioController.cs" t="Include" />
           <e p="BalaController.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
           <e p="GeradorZombies.cs" t="Include" />
@@ -27,7 +30,5 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\Victor\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Victor\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_apocalipse-zumbi-alura.-1817003661.00" t="ExcludeRecursive" />
   </component>
 </project>
