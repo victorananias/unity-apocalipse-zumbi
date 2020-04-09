@@ -5,11 +5,11 @@ using UnityEngine;
 public class AudioController : MonoBehaviour
 {
     private AudioSource _audioSource;
-    private static AudioSource _sharedAudioSource;
+    public static AudioSource SharedAudioSource;
     
     void Awake()
     {
         _audioSource = GetComponent<AudioSource>();
-        _sharedAudioSource = _audioSource;
+        SharedAudioSource = _audioSource;
     }
 }

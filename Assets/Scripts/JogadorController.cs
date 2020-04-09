@@ -15,6 +15,7 @@ public class JogadorController : MonoBehaviour
     private Rigidbody _rigidbodyJogador;
     public InterfaceController InterfaceController;
     public bool Vivo => Vida > 0;
+    public AudioClip SomDeDano;
 
     // Start is called before the first frame update
     void Start()
@@ -65,6 +66,8 @@ public class JogadorController : MonoBehaviour
     {
         Vida -= dano;
         InterfaceController.AtualizarSliderVida();
+        
+        AudioController.SharedAudioSource.PlayOneShot(SomDeDano);
 
         if (Vida > 0)
         {
